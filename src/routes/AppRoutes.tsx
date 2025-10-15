@@ -15,6 +15,7 @@ import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
 import RandomNumber from "../components/RandomNumber";
 import ShoppingCart from "../components/ShoppingCart";
+import SurveyView from "../views/SurveyView";
 
 export default function AppRoutes() {
   return (
@@ -31,6 +32,7 @@ export default function AppRoutes() {
         <Route path="validcontrasena" element={<ValidContrasena />} />
         <Route path="contadorclics" element={<ContadorClics />} />
         <Route path="listareas" element={<ListaTareas />} />
+        <Route path="survey" element={<SurveyView />} />
         <Route path="/random-number" element={<RandomNumber />} />
         <Route path="shopping-cart" element={<ShoppingCart />} />
 
