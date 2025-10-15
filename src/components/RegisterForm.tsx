@@ -63,7 +63,7 @@ export default function RegisterForm() {
 
         <button
           type="submit"
-          // disabled={!isFormValid}
+          disabled={!isFormValid}
           className="w-full rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-600 focus:outline-none focus:ring-2 focus:ring-emerald-400 disabled:cursor-not-allowed disabled:bg-slate-400"
         >
           Registrar
