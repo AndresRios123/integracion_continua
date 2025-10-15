@@ -13,6 +13,8 @@ import ConversorUnid from "../views/ConversorUnid";
 import ValidContrasena from "../views/ValidContrasena";
 import ContadorClics from "../views/ContadorClics";
 import ListaTareas from "../views/ListaTareas";
+import RandomNumber from "../components/RandomNumber";
+import ShoppingCart from "../components/ShoppingCart";
 
 export default function AppRoutes() {
   return (
@@ -29,6 +31,10 @@ export default function AppRoutes() {
         <Route path="validcontrasena" element={<ValidContrasena />} />
         <Route path="contadorclics" element={<ContadorClics />} />
         <Route path="listareas" element={<ListaTareas />} />
+        <Route path="/random-number" element={<RandomNumber />} />
+        <Route path="shopping-cart" element={<ShoppingCart />} />
+
+        
       </Route>
     </Routes>
   );
