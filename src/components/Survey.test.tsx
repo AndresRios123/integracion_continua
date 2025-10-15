@@ -9,7 +9,7 @@ describe("Survey", () => {
     render(<Survey />);
 
     const radios = screen.getAllByRole("radio");
-    expect(radios).toHaveLength(3);
+    expect(radios).toHaveLength(5);
     expect(
       screen.getByRole("radio", { name: /1 estrella/i })
     ).toBeInTheDocument();
