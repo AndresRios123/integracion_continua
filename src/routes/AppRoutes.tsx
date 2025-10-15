@@ -16,6 +16,7 @@ import ListaTareas from "../views/ListaTareas";
 import RandomNumber from "../components/RandomNumber";
 import ShoppingCart from "../components/ShoppingCart";
 import SurveyView from "../views/SurveyView";
+import RegisterFormView from "../views/RegisterFormView";
 
 export default function AppRoutes() {
   return (
@@ -35,6 +36,8 @@ export default function AppRoutes() {
         <Route path="survey" element={<SurveyView />} />
         <Route path="/random-number" element={<RandomNumber />} />
         <Route path="shopping-cart" element={<ShoppingCart />} />
+        <Route path="register-form" element={<RegisterFormView />} />
+
 
         
       </Route>
