@@ -50,6 +50,6 @@ describe("ShoppingCart", () => {
     await user.click(addButtons[0]);
     await user.click(addButtons[1]);
 
-    expect(getCartTotal()).toBeCloseTo(0, 2);
+    expect(getCartTotal()).toBeCloseTo(22.25, 2);
   });
 });
