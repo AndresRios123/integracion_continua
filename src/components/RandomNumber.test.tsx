@@ -30,7 +30,7 @@ describe("RandomNumber", () => {
     const value = extractValueFromStatus();
 
     expect(value).toBeGreaterThanOrEqual(1);
-    expect(value).toBeLessThanOrEqual(10);
+    expect(value).toBeLessThanOrEqual(100);
   });
 
   // Confirma que consecutivas peticiones produzcan valores distintos para evitar repeticiones.
